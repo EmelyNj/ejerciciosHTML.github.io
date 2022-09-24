@@ -1,0 +1,35 @@
+﻿body{
+    font-family:Tahoma;
+}
+
+section{
+    width: 880px;
+    height: 400px;
+}
+
+aside#left{
+    background-color: #e8e8e8;
+    width: 200px;
+    height: 400px;
+    float: left;
+    margin: 3px;
+    padding:10px;
+}
+
+aside#center{
+    background-color: #e8e8e8;
+    width: 400px;
+    height:400px;
+    float:left;
+    margin:3px;
+    padding:10px;
+}
+
+aside#right{
+    background-color: #e8e8e8;
+    width: 200px;
+    height: 400px;
+    float: right;
+    margin: 3px;
+    padding: 10px;
+}

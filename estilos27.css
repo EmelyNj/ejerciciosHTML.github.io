@@ -1,0 +1,43 @@
+﻿/* Estilo de la barra */
+.barra-panel{
+    overflow:auto;
+    position:absolute;
+    left:10px;
+    top:80%;
+    width:98.5%;
+    right:28;
+    height:120px;
+    z-index:1;
+}
+
+.borde-panel{
+    border:1px solid RGB(0,0,0);
+    background:RGB(215,201,168);
+}
+
+.punta-izq{
+    border-top-left-radius:5px;
+}
+
+.punta-der{
+    border-top-right-radius:5px;
+}
+
+.barra-scroll{
+    width:3630px;
+}
+
+/* Estilo del marco delas imagenes */
+figure{
+    border:1px solid RGB(0,0,0);
+    width:130px;
+    height:100px;
+    float:left;
+    margin:10px;
+}
+
+/* Estilo de las imagenes */
+img{
+    width:130px;
+    height:100px;
+}

@@ -1,0 +1,26 @@
+﻿body{
+    background: #d3d3d3;
+    font-size: 100%;
+    margin:10px;
+    font-family:Tahoma;
+    color:#444;
+}
+
+/* Estilo para la lista */
+nav ul{
+    background:#e8e8e8;
+    padding:0;
+    width:25%;
+}
+
+/* Estilo para los elementos de la lista */
+nav li a{
+    display:block;
+    padding:1.25em;
+    border-bottom:lpx solid #D2D2D2;
+}
+
+/* Estilo al posicionar el puntero emcima del enlance */
+nav a:hover{
+    color:#fff;
+}
