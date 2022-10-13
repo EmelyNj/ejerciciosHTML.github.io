@@ -1,0 +1,26 @@
+﻿/* 1 */
+p {
+    font-family:Tahoma;
+}
+
+p{
+    color:#ff0000;
+}
+
+p {
+    text-align:center;
+}
+
+/* 2 */
+p{
+    font-family:Tahoma;
+    color: #ff0000;
+    text-align:center;
+}
+
+/* 3 */
+p,h1{
+    font-family:Tahoma;
+    color:#ff0000;
+    text-align:center;
+}
