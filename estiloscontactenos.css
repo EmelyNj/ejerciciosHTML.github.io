@@ -1,0 +1,80 @@
+﻿body {
+    background-color: navajowhite;
+    background-image: url("img/fon.jpg");
+    background-repeat: round;
+}
+
+div h1 {
+    font-family: Brush Script MT (cursiva);
+    color: black;
+    font-family: Gabriola;
+}
+
+
+p {
+    background-color:navajowhite;
+    font-family: Gabriola;
+    font-size: 20px;
+}
+
+main {
+    background-color: lightyellow;
+    width: 400px;
+    height: 500px;
+}
+
+footer {
+    background-color: lightyellow;
+    width: 400px;
+    height: 90px;
+    position: center;
+}
+
+form {
+    font-family: Gabriola;
+    font-size: 20px;
+}
+
+article {
+    background-color: lightyellow;
+    width: 400px;
+    height: 100px;
+    float: left;
+    font-family: Gabriola;
+    font-size: 20px;
+}
+
+a {
+    width: 33px;
+    height: 33px;
+    float: right;
+}
+
+button {
+    left: 800px;
+    width: 10%;
+    height: 20px;
+    z-index: 10;
+}
+
+/* Diseño para celulares */
+#columna1, #columna2, #columna3 {
+    float: none;
+    width: 100%;
+}
+
+/* Diseño para tabletas */
+@media screen and (min-width: 800px) {
+    #columna1, #columna2 {
+        float: left;
+        width: 50%;
+    }
+}
+
+/* Diseño para PC */
+@media screen and (min-width: 1025px) {
+    #columna1, #columna2, #columna3 {
+        float: left;
+        width: 33%;
+    }
+}

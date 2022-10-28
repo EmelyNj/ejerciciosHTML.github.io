@@ -1,0 +1,94 @@
+﻿body {
+    background-color: navajowhite;
+}
+
+nav {
+    background-color: navajowhite;
+    width: 650px;
+    height: 100px;
+    font-family: Gabriola;
+    font-size: 20px;
+}
+
+    nav a {
+        background-color: navajowhite;
+        width: 750px;
+        height: 70px;
+        float: right;
+        position:center;
+    }
+
+main {
+    background-color: navajowhite;
+    width: 550px;
+    height: 500px;
+}
+
+footer {
+    background-color: navajowhite;
+    width: 750px;
+    height: 30px;
+    position: center;
+}
+
+section#banner {
+    background-color: navajowhite;
+    width: 800px;
+    height: 100px;
+    float: left;
+}
+
+section#logo {
+    background-color: navajowhite;
+    width: 200px;
+    height: 100px;
+    float: left;
+}
+
+section#login {
+    background-color: lightgoldenrodyellow;
+    width: 250px;
+    height: 200px;
+    float: left;
+    font-family: Gabriola;
+    font-size: 20px;
+}
+
+article {
+    background-color: navajowhite;
+    width: 500px;
+    height: 99px;
+    float: left;
+    font-family: Gabriola;
+    font-size: 20px;
+}
+
+a {
+    background-color: navajowhite;
+    width: 33px;
+    height: 33px;
+    float: left;
+}
+
+
+/* Diseño para celulares */
+#columna1, #columna2, #columna3 {
+    float: none;
+    width: 100%;
+}
+
+/* Diseño para tabletas */
+@media screen and (min-width: 800px) {
+    #columna1, #columna2 {
+        float: left;
+        width: 50%;
+    }
+}
+
+/* Diseño para PC */
+@media screen and (min-width: 1025px) {
+    #columna1, #columna2, #columna3 {
+        float: left;
+        width: 33%;
+    }
+}
