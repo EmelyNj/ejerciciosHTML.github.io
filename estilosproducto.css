@@ -65,3 +65,8 @@ figure {
     float: right;
     margin: 20px;
 }
+/* Estilo de las imagenes */
+img {
+    width: 200px;
+    height: 200px;
+}
