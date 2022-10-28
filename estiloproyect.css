@@ -19,7 +19,8 @@ section#bienvenids {
     float: right;
 }
 
-
+@media (max-width:320px)
+    
 div footer {
     width: 1310px;
     height: 20px;
