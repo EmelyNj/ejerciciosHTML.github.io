@@ -1,0 +1,26 @@
+﻿body {
+    background-color: navajowhite;
+    background-image: url("img/fon.jpg");
+    background-repeat: round;
+}
+
+h1 {
+    width: 550px;
+    height: 20px;
+    position: center;
+    font-family: Gabriola;
+}
+
+
+article {
+    background-color:navajowhite;
+    font-family: Gabriola;
+    font-size: 20px;
+}
+
+
+p{
+    background-color:navajowhite;
+    font-family:Gabriola;
+    font-size: 20px;
+}
